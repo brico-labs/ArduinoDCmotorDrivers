@@ -1,2 +1,2 @@
 # drivers
-Libraries por Arduino motor drivers
+Libraries for Arduino DC motor drivers
