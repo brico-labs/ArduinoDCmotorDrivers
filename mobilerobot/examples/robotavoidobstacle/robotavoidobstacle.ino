@@ -31,5 +31,5 @@ void loop()
     if (dist_L>dist_R) robot.rotate(250);
     else robot.rotate(-250);
   }
-  else robot.forward(120,120,0);
+  else robot.forward(120,120,1);
 }

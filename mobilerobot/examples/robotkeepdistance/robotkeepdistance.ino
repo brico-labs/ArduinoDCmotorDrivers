@@ -17,7 +17,7 @@ void loop()
   dist = sonar.ping_cm();
   if (dist==0) dist=50;  // corrige las distancias mayores de 50cm que dan lectura 0
 
-  if (dist<limit) robot.reverse(vel,vel,0);
-  if (dist>limit) robot.forward(vel,vel,0);
+  if (dist<limit) robot.reverse(vel,vel,1);
+  if (dist>limit) robot.forward(vel,vel,1);
   if (dist==limit) robot.brake(0);
 }
